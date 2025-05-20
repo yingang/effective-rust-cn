@@ -64,7 +64,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
 这使得任何尝试模拟异常的方式完全受到整个项目配置文件的支配。还有一种情况是，无论编译器或项目配置如何，某些目标平台（例如 WebAssembly）*总会*因 panic 而终止。
 
-一个更微妙的问题是，panic 处理引发了[异常安全]：如果 panic 发生在对数据结构进行操作的过程中，则会消除对数据结构已处于自一致状态的任何保证。自 20 世纪 90 年代以来，在存在异常的情况下保持内部不变量已被证明极其困难；[^1]这也是为什么 [Google （众所周知）禁止在其 C++ 代码中使用异常]的主要原因之一。
+一个更微妙的问题是，panic 处理引发了[异常安全]：如果 panic 发生在对数据结构进行操作的过程中，则会消除对数据结构已处于自一致状态的任何保证。自 20 世纪 90 年代以来，在存在异常的情况下保持内部不变量已被证明极其困难；[^1]这也是为什么 [Google（众所周知）禁止在其 C++ 代码中使用异常]的主要原因之一。
 
 最后，panic 传播与 FFI（外部函数接口）边界（[第 34 条]）的[交互也很差]； *应使用 `catch_unwind` 来防止 Rust 代码中的 panic 跨 FFI 边界传播到非 Rust 的调用代码*。
 
@@ -120,7 +120,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 [异常安全]: https://en.wikipedia.org/wiki/Exception_safety
 [交互也很差]: https://doc.rust-lang.org/nomicon/ffi.html#ffi-and-unwinding
 [其他人的问题]: https://en.wikipedia.org/wiki/Somebody_else%27s_problem
-[Google （众所周知）禁止在其 C++ 代码中使用异常]: https://google.github.io/styleguide/cppguide.html#Exceptions
+[Google（众所周知）禁止在其 C++ 代码中使用异常]: https://google.github.io/styleguide/cppguide.html#Exceptions
 [API 指南]: https://rust-lang.github.io/api-guidelines/documentation.html#function-docs-include-error-panic-and-safety-considerations-c-failure
 [`String::from_utf8_unchecked`]: https://doc.rust-lang.org/std/string/struct.String.html#method.from_utf8_unchecked
 [`String::from_utf8`]: https://doc.rust-lang.org/std/string/struct.String.html#method.from_utf8
