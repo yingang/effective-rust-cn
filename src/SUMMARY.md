@@ -1,6 +1,7 @@
 # Summary
 
 [封面](./cover.md)
+
 [前言](./preface.md)
 
 - [类型](./chapter_1.md)
@@ -44,4 +45,5 @@
     - [第 33 条：考虑使库代码与 no_std 兼容](./chapter_6/item33-no-std.md)
     - [第 34 条：控制跨越 FFI 边界的内容](./chapter_6/item34-ffi.md)
     - [第 35 条：优先使用 bindgen 而不是手动 FFI 映射](./chapter_6/item35-bindgen.md)
-- [后记](./afterword.md)
+
+[后记](./afterword.md)

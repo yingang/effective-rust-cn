@@ -13,7 +13,7 @@
 
 <!-- 参考链接 -->
 
-[preface]: intro.md
+[preface]: preface.md
 [第 33 条]: chapter_6/item33-no-std.md
 [第 34 条]: chapter_6/item34-ffi.md
 
