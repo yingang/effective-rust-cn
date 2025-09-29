@@ -53,7 +53,7 @@ function prepareFerrisContainer(element, useButtons) {
 function createFerris(type, size) {
     var a = document.createElement('a')
     var a = document.createElement('a')
-    a.setAttribute('href', '../intro.html#ferris')
+    a.setAttribute('href', '../preface.html#ferris')
     a.setAttribute('target', '_blank')
 
     var images = document.createElement('images')
