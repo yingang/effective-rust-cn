@@ -1,6 +1,6 @@
 [book]
-authors = ["lispking"]
-language = "en"
+authors = ["lispking", "yingang"]
+language = "zh-CN"
 multilingual = false
 src = "src"
 title = "Effective Rust 中文版"
