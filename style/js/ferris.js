@@ -15,12 +15,12 @@ var ferrisTypes = [
 
 document.addEventListener('DOMContentLoaded', () => {
     for (var ferrisType of ferrisTypes) {
-        attachFerrises(ferrisType)
+        attachFerris(ferrisType)
     }
 })
 
 
-function attachFerrises(type) {
+function attachFerris(type) {
     var elements = document.getElementsByClassName(type.attr)
 
     for (var codeBlock of elements) {
