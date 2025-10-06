@@ -73,7 +73,9 @@ Rust 的安全性也导致完全没有标题为“永远不要…”的条款。
 原文[点这里](https://www.lurklurk.org/effective-rust/preface.html)查看
 
 ## 注释
+
 [^1]: 国内已由电子工业出版社引进翻译并上市：《[Rust 权威指南（第 2 版）](https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=66818)》。
+
 [^2]: 国内已由人民邮电出版社引进翻译并上市：《[Rust 程序设计（第 2 版）](https://www.ituring.com.cn/book/2846)》。
 
 <!-- 参考链接 -->
