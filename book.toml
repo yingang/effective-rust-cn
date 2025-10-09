@@ -1,9 +1,9 @@
 [book]
-authors = ["lispking", "yingang"]
+authors = ["community"]
 language = "zh-CN"
 multilingual = false
 src = "src"
-title = "Effective Rust 中文版"
+title = "Effective Rust 中文翻译"
 
 [output.html]
 default-theme = "rust"
