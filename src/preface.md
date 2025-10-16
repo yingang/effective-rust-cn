@@ -79,7 +79,7 @@ Rust 的安全性也导致没有类似于“永远不要…”的条款。如果
 
 <!-- 参考链接 -->
 
-[最受欢迎的编程语言]: https://survey.stackoverflow.co/2022#most-loved-dreaded-and-wanted-language-love-dread
+[最受喜爱的编程语言]: https://survey.stackoverflow.co/2022#most-loved-dreaded-and-wanted-language-love-dread
 [Rust book]: https://doc.rust-lang.org/book/
 [Rust 程序设计（第2版）]: https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/
 
