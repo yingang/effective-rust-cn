@@ -39,7 +39,7 @@ help: you can convert an `i32` to an `i16` and panic if the converted value does
 
 ```rust
 let x: i32 = 66_000;
-let y: i16 = x; // `y` 的值是什么？
+let y: i16 = x; // y 的值是什么？
 ```
 
 从错误提示中，我们也可以获得对 Rust 的初步认识： Rust 虽然拥有严格的规则，但编译失败时也会给出有用的提示信息，指引我们如何遵守这些规则。编译器还给出了解决方案，引导我们如何处理转换过程中可能出现的超出范围的情况。关于错误处理（[第 4 条]）和使用 `panic!`（[第 18 条]）后续我们将会有更多的讨论。
